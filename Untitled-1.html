@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page avec liens, photos et paragraphe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #9800fd;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ff0101;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .title-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px; 
+            margin: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .photos {
+            display: flex;          
+            justify-content: center; 
+            gap: 20px;              
+            margin: 20px 0;         
+        }
+
+        .photos img {
+            width: 35%;             
+            height: auto;           
+        }
+
+        .paragraph {
+            margin-top: 20px;
+        }
+
+        .paragraph p {
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://www.facebook.com/lien.aittaleb?locale=fr_FR">Ouali</a></li>
+                <li><a href="https://www.twitch.tv/">Twitch</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="title-container">
+            <h1>Lilian la grosse pute</h1>
+        </div>
+        
+        <section class="photos">
+            <img src="https://scontent-cdg4-1.xx.fbcdn.net/v/t1.18169-9/19420693_243807342782091_5022254828104457314_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1XGOUub9OBgQ7kNvgFx7-pK&_nc_ht=scontent-cdg4-1.xx&oh=00_AYCvt53NHl4CCZT9peG5NMFd8OUxmZDCUiBIWJ6XaTQbhA&oe=666C757D" alt="Photo 1">
+            <img src="https://media.tenor.com/YfUk93SFj7EAAAAe/mentalow.png" alt="Photo 2">
+            <img src="https://photos.tf1.fr/330/186/franklin-s06-e135-le-badge-de-franklin-29458053-1697125359-dd522c-7c28cc-0@3x.jpg" alt="Photo 3">
+        </section>
+
+        <section class="paragraph">
+            <p>
+                Tu ne peux pas sortir singe de la foret mais tu peux sortir foret de la singe.
+            </p>
+        </section>
+    </main>
+</body>
+</html>
